@@ -1,5 +1,5 @@
 ####################################################################################
-# Docker-compose file for spinning up a node-ts-repo-template container
+# Docker-compose file for spinning up a cron-on-steroids container
 # USAGE: docker-compose up -d
 #
 ####################################################################################
@@ -7,13 +7,13 @@
 version: '3.2'
 
 services:
-  node-ts-repo-template:
-    container_name: node-ts-repo-template
-    hostname: node-ts-repo-template
+  cron-on-steroids:
+    container_name: cron-on-steroids
+    hostname: cron-on-steroids
     build:
       context: .
       dockerfile: Dockerfile
-    image: node-ts-repo-template:latest
+    image: cron-on-steroids:latest
     volumes:
       - type: bind
         source: .

@@ -1,7 +1,7 @@
 {
-  "name": "node-ts-repo-template",
+  "name": "cron-on-steroids",
   "version": "1.0.0",
-  "description": "Decentro standard template for bootstrapping node TypeScript repositories!",
+  "description": "Enhanced cron job scheduling with features you didn't know you need!",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -32,15 +32,15 @@
   "prepublishOnly": "npm run build",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decentro-gmbh/node-ts-repo-template.git"
+    "url": "git+https://github.com/decentro-gmbh/cron-on-steroids.git"
   },
   "keywords": [],
   "author": "Decentro GmbH",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/decentro-gmbh/node-ts-repo-template/issues"
+    "url": "https://github.com/decentro-gmbh/cron-on-steroids/issues"
   },
-  "homepage": "https://decentro-gmbh.github.io/node-ts-repo-template/",
+  "homepage": "https://decentro-gmbh.github.io/cron-on-steroids/",
   "devDependencies": {
     "@decentro/tslint": "^1.0.5",
     "@types/jest": "^24.0.6",

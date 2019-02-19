@@ -1,8 +1,8 @@
 ####################################################################################
-# node-ts-repo-template Dockerfile for local testing/ development
+# cron-on-steroids Dockerfile for local testing/ development
 #
-# BUILD: docker build --rm -f Dockerfile -t node-ts-repo-template:latest .
-# RUN: docker run --rm -it --name node-ts-repo-template --entrypoint=/bin/bash -v $(pwd):/app -p "127.0.0.1:9126:9229" node-ts-repo-template:latest
+# BUILD: docker build --rm -f Dockerfile -t cron-on-steroids:latest .
+# RUN: docker run --rm -it --name cron-on-steroids --entrypoint=/bin/bash -v $(pwd):/app -p "127.0.0.1:9126:9229" cron-on-steroids:latest
 #
 ####################################################################################
 
