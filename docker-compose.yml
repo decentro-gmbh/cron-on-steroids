@@ -1,5 +1,5 @@
 ####################################################################################
-# Docker-compose file for spinning up a cron-on-steroids container
+# Docker-compose file for spinning up a uber-cron container
 # USAGE: docker-compose up -d
 #
 ####################################################################################
@@ -7,13 +7,13 @@
 version: '3.2'
 
 services:
-  cron-on-steroids:
-    container_name: cron-on-steroids
-    hostname: cron-on-steroids
+  uber-cron:
+    container_name: uber-cron
+    hostname: uber-cron
     build:
       context: .
       dockerfile: Dockerfile
-    image: cron-on-steroids:latest
+    image: uber-cron:latest
     volumes:
       - type: bind
         source: .

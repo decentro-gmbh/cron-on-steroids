@@ -1,8 +1,8 @@
 ####################################################################################
-# cron-on-steroids Dockerfile for local testing/ development
+# uber-cron Dockerfile for local testing/ development
 #
-# BUILD: docker build --rm -f Dockerfile -t cron-on-steroids:latest .
-# RUN: docker run --rm -it --name cron-on-steroids --entrypoint=/bin/bash -v $(pwd):/app -p "127.0.0.1:9126:9229" cron-on-steroids:latest
+# BUILD: docker build --rm -f Dockerfile -t uber-cron:latest .
+# RUN: docker run --rm -it --name uber-cron --entrypoint=/bin/bash -v $(pwd):/app -p "127.0.0.1:9126:9229" uber-cron:latest
 #
 ####################################################################################
 
