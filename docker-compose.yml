@@ -1,0 +1,22 @@
+####################################################################################
+# Docker-compose file for spinning up a node-ts-repo-template container
+# USAGE: docker-compose up -d
+#
+####################################################################################
+
+version: '3.2'
+
+services:
+  node-ts-repo-template:
+    container_name: node-ts-repo-template
+    hostname: node-ts-repo-template
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: node-ts-repo-template:latest
+    volumes:
+      - type: bind
+        source: .
+        target: /app/
+    ports:
+      - "127.0.0.1:9229:9229" # Node debugging port
