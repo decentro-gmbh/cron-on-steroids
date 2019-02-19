@@ -12,7 +12,7 @@ class Example {
       cronTime: '*/1 * * * * *',
       start: true,
       logger: null,
-      onTick: () => console.log(`[${new Date().toISOString()}] Job being executed right now!`),
+      onTick: () => console.log(`Job being executed right now!`),
     });
 
     setTimeout(() => cronJob.stop(), 3500);
